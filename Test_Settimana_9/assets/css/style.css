@@ -1,0 +1,145 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bg-personal {
+  background: #0e10b4;
+}
+.container {
+  text-align: center;
+}
+#dieci, #venti, #cinquanta, #logout, #secondiChiam, #numeroChiam, #inoltraChiam, #infoChiamate, #azzeraChiam {
+  display: none;
+}
+
+#telefono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#scocca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 25px;
+  height: 550px;
+  width: 300px;
+  box-shadow: 20px 20px 20px gray;
+  border: 2px solid rgb(155, 155, 155);
+}
+
+.volume-up-smartphone,
+.volume-down-smartphone {
+  position: absolute;
+  height: 60px;
+  margin-top: 200px;
+  margin-left: -307px;
+  width: 6px;
+  background-color: #000000;
+  border-radius: 10px 0 0 10px;
+}
+
+.power-smartphone {
+  position: absolute;
+  height: 60px;
+  margin-top: 200px;
+  margin-right: -305px;
+  width: 6px;
+  background-color: #000000;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.volume-up-smartphone {
+  top: 80px;
+}
+
+.volume-down-smartphone {
+  top: 150px;
+}
+
+.power-smartphone {
+  left: initial;
+  top: 115px;
+}
+
+.volume-up-smartphone:active,
+.volume-down-smartphone:active,
+.power-smartphone:active {
+  left: -6px;
+  width: 4px;
+}
+
+#island {
+  z-index: 999;
+  margin-top: -510px;
+  position: absolute;
+  background-color: black;
+  border-radius: 0px 0px 10px 10px;
+  height: 30px;
+  width: 100px;
+}
+
+#microfono {
+  z-index: 999;
+  margin-top: 7px;
+  background-color: grey;
+  border-radius: 5px;
+  height: 7px;
+  width: 40px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fotocamera {
+  z-index: 999;
+  margin-top: 7px;
+  background-color: rgb(48, 48, 48);
+  border-radius: 7px;
+  width: 15px;
+  height: 15px;
+}
+
+#schermo1 {
+  display: flex;
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  height: 530px;
+  width: 280px;
+  border: 4px solid rgb(36, 36, 36);
+}
+
+#slideHome {
+    margin-top: 510px;
+    border-radius: 5px;
+    background-color: gray;
+    height: 5px;
+    width: 100px;
+}
+
+#schermo2 {
+  position: absolute;
+  background-color: rgba(205, 255, 255, 0.5);
+  border-radius: 20px;
+  height: 530px;
+  width: 280px;
+  border: 4px solid rgb(34, 34, 34);
+}
+
+#power {
+     display: none;
+}
+
+#margineTitolo {
+    margin-top: 35px;
+}
